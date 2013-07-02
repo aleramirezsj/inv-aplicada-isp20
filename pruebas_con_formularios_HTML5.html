@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+		<title>html5-template</title>
+		<meta name="description" content="" />
+		<meta name="author" content="ARamirez" />
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+	</head>
+
+	<body>
+		<div style="">
+			<header>
+				<h1>Realizando pruebas con Formularios XHTML5 en el <acronym title="Instituto Superior de Profesorado Nº 20">ISP20</acronym></h1>
+			</header>
+			<nav>
+				<p>
+					<a href="/">Home</a>
+				</p>
+				<p>
+					<a href="/contact">Contact</a>
+					<input type="checkbox" name="casado" id="casado"/>
+					
+				</p>
+			</nav>
+	
+  
+	<h2>Carga de clientes</h2>
+	 <form action="resultados.html" method="get">
+	 	<fieldset>
+	 		<legend>Datos Personales</legend>
+		 	<label for="txtapellido">Ingrese el apellido:</label>
+		 	<input type="text" id="txtapellido" name="txtapellido" maxlength="20" size="5"/>
+		 	<br />
+		 	<label for="txtnombre">Ingrese el nombre:</label>
+		 	<input type="text" id="txtnombre" name="txtnombre" placeholder="Ejemplo Juan"/>
+		 	<br />
+		 	<label for="chkadulto">Adulto</label>
+		 	<input type="checkbox" id="chkadulto" name="chkadulto" value="adulto" />
+		 	<br />
+		 	<label for="rdsexo">Sexo</label>
+		 	<input type="radio" name="rdsexo" value="hombre" checked />Hombre
+		 	<input type="radio" name="rdsexo" value="mujer" />Mujer
+		 	<br />
+		 	<label for="txaexperiencia">Experiencia Laboral</label>
+		 	<br />
+		 	<textarea name="txaexperiencia" id="txaexperiencia" cols="40" rows="4">...</textarea>
+		 	<input type="button" name="guardar" value="Guardar cambios" />
+		 	<br />
+		 	<input type="image" name="enviar" src="imagenes/google.jpg">
+		 	<br />
+		 	
+		 	<label for="so">Sistema operativo</label> <br/>
+<select id="so" name="so">
+  <option value="" selected="selected">- selecciona -</option>
+  <option value="windows">Windows</option>
+  <option value="mac">Mac</option>
+  <option value="linux">Linux</option>
+  <option value="otro">Otro</option>
+</select>
+ 
+<label for="so2">Sistema operativo</label> <br/>
+<select id="so2" name="so2" size="5">
+  <option value="windows" selected="selected">Windows</option>
+  <option value="mac">Mac</option>
+  <option value="linux">Linux</option>
+  <option value="otro">Otro</option>
+</select>
+ 
+<label for="so3">Sistema operativo</label> <br/>
+<select id="so3" name="so3" size="5" multiple="multiple">
+  <option value="windows" selected="selected">Windows</option>
+  <option value="mac">Mac</option>
+  <option value="linux">Linux</option>
+  <option value="otro">Otro</option>
+</select>
+		 	
+		 	
+		 	<input type="submit" id="cmdenviar" name="cmdenviar" value="Enviar Formulario" />
+		 	<input type="reset" id="cmdlimpiar" name="cmdlimpiar" value="Limpiar Formulario" />
+		</fieldset>
+	 </form>
+	 <iframe src="http://www.webmb.com.ar" height="300px" width="800px"></iframe>
+
+
+
+			<footer onclick="alert('han hecho click en el footer');">
+				<p>
+					&copy; Copyright  by ARamirez
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>

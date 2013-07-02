@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Borrar el recurso &apos;pruebas_html5/css/estilos.css&apos;." deleteContents="false" description="Borrar el recurso &apos;pruebas_html5/css/estilos.css&apos;." element1="/pruebas_html5/css/estilos.css" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1372118838937"/>&#x0A;<refactoring comment="Borrar el recurso &apos;pruebas_html5/estilos.css&apos;." deleteContents="false" description="Borrar el recurso &apos;pruebas_html5/estilos.css&apos;." element1="/pruebas_html5/estilos.css" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1372118885059"/>
+</session>

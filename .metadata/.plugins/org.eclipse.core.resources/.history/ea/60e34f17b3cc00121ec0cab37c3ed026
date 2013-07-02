@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+		<title>html5-template</title>
+		<meta name="description" content="" />
+		<meta name="author" content="ARamirez" />
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+	</head>
+
+	<body>
+		<div style="">
+			<header>
+				<h1>Realizando pruebas con Formularios XHTML5 en el <acronym title="Instituto Superior de Profesorado Nº 20">ISP20</acronym></h1>
+			</header>
+			<nav>
+				<p>
+					<a href="/">Home</a>
+				</p>
+				<p>
+					<a href="/contact">Contact</a>
+					<input type="checkbox" name="casado" id="casado"/>
+					
+				</p>
+			</nav>
+	
+  
+	<h2>Carga de clientes</h2>
+	 <form action="resultados.html" method="get">
+	 	<label for="txtapellido">Ingrese el apellido:</label>
+	 	<input type="text" id="txtapellido" name="txtapellido" maxlength="20" size="5"/>
+	 	<br />
+	 	<label for="txtnombre">Ingrese el nombre:</label>
+	 	<input type="text" id="txtnombre" name="txtnombre" placeholder="Ejemplo Juan"/>
+	 	<br />
+	 	<label for="chkadulto">Adulto</label>
+	 	<input type="checkbox" id="chkadulto" name="chkadulto" value="adulto" />
+	 	<br />
+	 	<label for="rdsexo">Sexo</label>
+	 	<input type="radio" name="rdsexo" value="hombre" />Hombre
+	 	<input type="radio" name="rdsexo" value="mujer" />Mujer
+	 	<br />
+	 	<input type="button" name="guardar" value="Guardar cambios" />
+	 	<br />
+	 	<input type="image" name="enviar" src="imagenes/google.jpg">
+	 	<br />
+	 	<input type="submit" id="cmdenviar" name="cmdenviar" value="Enviar Formulario" />
+	 	<input type="reset" id="cmdlimpiar" name="cmdlimpiar" value="Limpiar Formulario" />
+	 </form>
+
+
+
+			<footer onclick="alert('han hecho click en el footer');">
+				<p>
+					&copy; Copyright  by ARamirez
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>

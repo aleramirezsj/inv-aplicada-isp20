@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+ 
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Pruebas con Formularios HTML</title>
+</head>
+ 
+<body>
+	
+	<h1>Realizando pruebas con Formularios XHTML en el <acronym title="Instituto Superior de Profesorado Nº 20">ISP20</acronym></h1>
+  
+	<h2>Carga de clientes</h2>
+	 <form action="resultados.html" method="get">
+	 	<label for="txtapellido">Ingrese el apellido:</label>
+	 	<input type="text" id="txtapellido" name="txtapellido" maxlength="20" size="10"/>
+	 	<br />
+	 	<label for="txtnombre">Ingrese el nombre:</label>
+	 	<input type="text" id="txtnombre" name="txtnombre" />
+	 	
+	 	
+	 	<br />
+	 	<input type="submit" id="cmdenviar" name="cmdenviar" value="Enviar Formulario" />
+	 	<input type="reset" id="cmdlimpiar" name="cmdlimpiar" value="Limpiar Formulario" />
+	 </form>
+
+</body>
+ 
+</html>
